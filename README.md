@@ -1,16 +1,61 @@
-# React + Vite
+# Simple Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive and interactive **Counter Application built with React.js**.
 
-Currently, two official plugins are available:
+This project was developed to practice the fundamentals of React, including state management, event handling, conditional rendering, keyboard events, localStorage, responsive design, and dynamic UI updates.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application allows users to increase, decrease, and reset a counter while maintaining activity history and user preferences even after refreshing the browser.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 Project Overview
 
-## Expanding the Oxlint configuration
+The Simple Counter App is a beginner-friendly React project designed to demonstrate how a modern web application can manage state and user interactions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The counter has a minimum value of **0** and a maximum value of **10**.
+
+Users can control the counter using:
+
+- 🖱️ Mouse buttons
+- ⌨️ Keyboard shortcuts
+- 📱 Responsive interface
+
+The application also provides:
+
+- Dark mode
+- Progress tracking
+- Activity history
+- Timestamps
+- Local storage
+- Reset options
+- Responsive design
+
+---
+
+## Features
+
+###Counter Controls
+
+The application provides three main controls:
+
+- **+ Button** → Increases the counter by 1
+- **- Button** → Decreases the counter by 1
+- **Reset Button** → Resets the counter to 0
+
+The counter cannot:
+
+- Go below `0`
+- Go above `10`
+
+---
+
+###Progress Indicator
+
+A dynamic progress bar displays the current counter progress.
+
+For example:
+
+```text
+Count: 5 / 10
+
+██████████░░░░░░░░░░
